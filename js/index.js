@@ -62,7 +62,7 @@ document.getElementById('searchBtn').addEventListener('click', () => {
   });
 });
 
-//input 엔터키 입력식 submit 현상 억제 + 검색버튼 클릭 이벤트 연결
+//input 엔터키 submit 중단 + 검색버튼 클릭 이벤트 연결
 document.addEventListener('keydown', function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
