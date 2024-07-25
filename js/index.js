@@ -49,9 +49,18 @@ fetch(URL)
 
 
 //검색기능
-  // const btn = document.querySelector('#searchBtn')
-  // let searchText = document.getElementById('#searchInput').value;
+document.getElementById('searchBtn').addEventListener('click', () => {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  const movieCards = document.querySelectorAll('.movie-card');
+  movieCards.forEach(card => {
+    const title = card.querySelector('h3').textContent.toLowerCase();
+    if (title.includes(query)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+});
 
-  // btn.onclick = function(){
-  //   alert(searchText)
-  // }
+//엔터키 이벤트 함수
+
