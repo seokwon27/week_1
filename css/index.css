@@ -99,6 +99,20 @@ form button{
 }
 
 footer{
-    height: 150px;
+    height: 130px;
     background-image: linear-gradient(black, rgb(32, 32, 32), rgb(59, 59, 59));
+    margin: 0;
+}
+
+.copyright{
+    color: gray;
+    width: 970px;
+    margin: 0 auto;
+    padding: 45px 0;
+    font-size: 14px;
+}
+
+.copyright span{
+    cursor: pointer;
+    color: rgb(108, 139, 141);
 }
