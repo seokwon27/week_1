@@ -8,6 +8,11 @@
 body{
     font-family: 'Pretendard-Regular';
     margin: 0;
+    background-color: rgb(202, 211, 216);
+}
+
+.title_area{
+    padding: 30px 0;
 }
 
 .search_area{
@@ -16,23 +21,34 @@ body{
 
 header{
     text-align: center;
+    background-image: linear-gradient(rgba(190, 185, 255, 0.637), rgb(202, 211, 216));
+
 }
 
 fieldset{
     border: none;
+    vertical-align: middle;
+}
+
+form input {
+    padding: 5px 5px;
+}
+
+form button{
+    padding: 3px;
 }
 
 .movie-card{
     height: 420px;
     width: 300px;
-    border: solid 1px rgb(150, 144, 99);
     border-radius: 5px;
     justify-self: center;
     text-align: center;
     padding: 10px;
     position: relative;
-    margin-bottom: 15px;
-    background-color: rgb(231, 255, 185);
+    margin-bottom: 20px;
+    background-color: rgb(209, 206, 255);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
 
 .movie-card > p {
@@ -56,6 +72,7 @@ fieldset{
 }
 
 .over {
+    /*마우스 호버 출력 디자인*/
     position: absolute;
     top: 0;
     left: 0;
@@ -74,6 +91,7 @@ fieldset{
 }
 
 .star-rating{
+    /*별점 영역*/
     position: absolute;
     bottom: 40px;
     left: 50%;
