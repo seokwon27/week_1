@@ -1,5 +1,5 @@
 const API_KEY = '9c008f9d8ccdede9bfb2563e697135df';
-const URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
+const URL = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`;
 
 fetch(URL)
   .then(response => response.json())
