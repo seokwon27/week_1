@@ -109,13 +109,16 @@ form button{
 }
 
 .star-rating-fill{
-    color: #eeff00;
+    color: rgb(229, 255, 0);
     z-index: 1;
     overflow: hidden;
+    font-size: 19px;
 }
 
 .star-rating-base{
     z-index: 0;
+    font-size: 19px;
+    color: gray;
 }
 
 footer{
