@@ -5,9 +5,9 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'PyeongChangPeace-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'HS-Regular';
+    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/HS-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -19,7 +19,7 @@ body{
 
 .title_area{
     padding: 30px 0;
-    font-family: 'PyeongChangPeace-Bold'
+    font-family: 'HS-Regular';
 }
 
 .search_area{
