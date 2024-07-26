@@ -99,6 +99,23 @@ form button{
     bottom: 40px;
     left: 50%;
     transform: translate(-50%, 0);
+    unicode-bidi: bidi-override;
+    width: max-content;
+}
+
+.star-rating-fill, .star-rating-base{
+    position: absolute;
+    padding-left: 0;
+}
+
+.star-rating-fill{
+    color: #eeff00;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.star-rating-base{
+    z-index: 0;
 }
 
 footer{

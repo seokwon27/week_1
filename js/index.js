@@ -24,6 +24,13 @@ function createMovieCard(movie) {
         <p>${movie.overview}</p>
       </div>
       <div class="star-rating">
+        <div class="star-rating-fill" style="width: ${movie.vote_average*10}% ;">
+          ★★★★★
+        </div>
+       <div class="star-rating-base">
+          ★★★★★
+        </div>
+        <br>
         <span>Rating: ${movie.vote_average} </span>
       </div>
     </div>
